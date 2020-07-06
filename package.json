@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Tigran Bayburtsyan",
+    "url": "https://tigran.tech"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' --files src/index.ts",
+    "build": "rm -rf build && tsc -p ."
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "typescript-rest": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
