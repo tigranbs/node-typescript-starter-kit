@@ -8,4 +8,4 @@ next or existing API project.
 
 Video to get started with this project structure.
 
-[![TypeScript, Node.js and Express.js ultimate project setup | Tigran in Tech](https://i.imgur.com/DrzBlQs.png)](https://www.youtube.com/watch?v=kvSN8vAwx0k)
+[![TypeScript, Node.js and Express.js ultimate project setup | Tigran in Tech](https://i.imgur.com/DrzBlQs.png)](https://www.youtube.com/watch?v=0qFcdNkPhnk)
