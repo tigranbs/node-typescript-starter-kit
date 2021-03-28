@@ -1,11 +1,18 @@
 FROM node:lts-alpine
 
-ADD . /app
+ADD yarn.lock /app/yarn.lock
+ADD package.json /app/package.json
 
-RUN cd /app && yarn && yarn build
+WORKDIR /app
 
-WORKDIR /app/build
+RUN yarn
 
 ENV SERVER=1
+
+ADD . /app
+
+RUN yarn build
+
+WORKDIR /app/build
 
 CMD [ "node", "src" ]
