@@ -15,9 +15,7 @@ export default {
   autoReconnect: true,
   reconnectTries: Number.MAX_VALUE,
   reconnectInterval: 2000,
-  entities: [__dirname + 
-    `/entity/**/*.${isCompiled ? "js" : "ts"}`
-  ],
+  entities: [__dirname + `/entity/**/*.${isCompiled ? "js" : "ts"}`],
   migrations: [
     `src/migration/**/*.${isCompiled ? "js" : "ts"}`
   ],
